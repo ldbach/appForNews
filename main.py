@@ -13,8 +13,7 @@ from sumy.summarizers.lsa import LsaSummarizer
 stop_words = set(stopwords.words('english'))
 
 # Set your API key (set this in your environment variables for security)
-# API_KEY = os.getenv("NEWS_API_KEY")  # Replace with your own key for testing
-API_KEY = "ff8d06ebb29b463793ade65ef092485a"
+API_KEY = os.getenv("NEWS_API_KEY")  # Replace with your own key for testing
 
 # API endpoint
 API_ENDPOINT = "https://newsapi.org/v2/everything"
